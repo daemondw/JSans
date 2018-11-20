@@ -1,0 +1,55 @@
+/* position: */
+/* static */
+/* fixed */
+/* relative */
+/* absolute */
+/* top left right bottom */
+/* z-index */
+
+.test {
+    width: 50px;
+    height: 50px;
+    background: orange;
+    /* position: absolute; */
+    /* position: fixed;
+    right: 200px;
+    bottom: 100px;
+    top: 100px; */
+    bottom: 40px;
+    left: 50px; 
+}
+
+input[type="checkbox"] {
+    position: relative;
+    top: 2px;
+}
+
+.rect {
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.sq {
+    width: 50px;
+    height: 50px;
+    background: lime;
+}
+
+.p1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 99999;
+}
+
+.p2 {
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    background: orange;
+    z-index: 2;
+}
+
