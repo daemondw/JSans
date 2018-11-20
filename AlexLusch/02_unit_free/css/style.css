@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 204, 255);
+}
+
+h1 {
+    /* color: green; */
+    font-weight: normal;
+    /* font-style: italic; */
+}
+
+p {
+    font-size: 16px;
+}
+
+.span-green-bg {
+    background: green;
+    color: yellow;
+}
+
+.span-red-bg {
+    background: red;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+span {
+    /* text-transform: uppercase; */
+}
