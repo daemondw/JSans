@@ -54,6 +54,21 @@ h3 span {
 	height: 80px;
 	background-image: url(../img/sale_img.png);
 	margin: 10px auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.sale_img span {
+	font-style: italic;
+	font-size: 12px;
+	color: #fff;
+	padding-top: 18px;
+	display: block;
+}
+
+.sale_img p {
+	font-size: 18px;
+	color: #fff;
 }
 
 
