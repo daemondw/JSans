@@ -54,10 +54,12 @@ h3 span {
 
 .goods-cart .goods-name {
 	color: #43525d;
+	padding-top: 28px;
 }
 
 .goods-cart .cost {
 	color: #ff7013;
+	padding-top: 28px;
 }
 
 
