@@ -1,0 +1,16 @@
+html, body {
+	margin: 0;
+	box-sizing: border-box;
+	background: #f6f8f9;
+}
+
+.container {
+	width: 1200px;
+}
+
+.goods-cart {
+	width: 250px;
+	height: 365px;
+	margin: 0 15px 0;
+	background: #fff;
+}
