@@ -38,16 +38,23 @@ h3 span {
 	margin: 10px auto;
 }
 
-.block_adv {
+.block-adv {
 	width: 50%;
 	min-height: 100px;
 	background: #fff;
 	border: 1px solid #edf0f1;
 }
 
+.block-adv .sale {
+	width: 25%;
+}
 
-
-
+.sale_img {
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/sale_img.png);
+	margin: 10px auto;
+}
 
 
 
