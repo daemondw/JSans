@@ -2,6 +2,7 @@ html, body {
 	margin: 0;
 	box-sizing: border-box;
 	background: #f6f8f9;
+	font-family: Arial, Tahoma, sans-serif;
 }
 
 .container {
@@ -15,5 +16,25 @@ html, body {
 	margin: 0 15px 0;
 	background: #fff;
 	float: left;
-	
+	text-align: center;
+	font-size: 18px;
 }
+
+.goods-cart img {
+	margin-top: 30px;
+}
+
+.goods-cart .goods-name {
+	color: #43525d;
+}
+
+.goods-cart .cost {
+	color: #ff7013;
+}
+
+
+
+
+
+
+
