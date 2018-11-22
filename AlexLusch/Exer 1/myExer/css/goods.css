@@ -6,6 +6,7 @@ html, body {
 
 .container {
 	width: 1200px;
+	margin: 10px auto;
 }
 
 .goods-cart {
@@ -13,4 +14,6 @@ html, body {
 	height: 365px;
 	margin: 0 15px 0;
 	background: #fff;
+	float: left;
+	
 }
