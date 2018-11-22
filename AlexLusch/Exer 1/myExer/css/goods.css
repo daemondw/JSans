@@ -3,6 +3,26 @@ html, body {
 	box-sizing: border-box;
 	background: #f6f8f9;
 	font-family: Arial, Tahoma, sans-serif;
+	color: #43515d;
+}
+
+h1 {
+
+}
+
+h3 {
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3 span {
+	color: #ff7013;
+}
+.section-description {
+	font-size: 16px;
+	text-align: center;
+	
 }
 
 .container {
