@@ -2,10 +2,12 @@
 	margin: 0;
 }
 html, body {
-	font-family: Tahoma, Open Sans, sans-serif;
-	background: grey;
+	font-family: Tahoma, Open Sans, Helvetica, sans-serif;
 	font-size: 12px;
 /*	text-align: left;*/
+}
+body {
+	background: #e1dde6;
 }
 p, li {
 	line-height: 150%;
