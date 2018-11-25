@@ -3,10 +3,11 @@
 }
 html, body {
 	font-family: Tahoma, Open Sans, sans-serif;
-	background-color: white;
+	background: grey;
 	font-size: 12px;
+/*	text-align: left;*/
 }
-p {
+p, li {
 	line-height: 150%;
 }
 .wrapper {
@@ -21,7 +22,6 @@ p {
 	width: 200px;
 	height: 100px;
 	margin: 10px;
-	line-height: 19px;
 	float: right;
 }
 
@@ -38,8 +38,23 @@ p {
 	float: left;
 }
 
+.navigation	{
+	width: 200px;
+	padding: 15px 10px 15px;
+	float: left;
+}
+.navigation ul {
+	margin: 20px 0;
+}
+.navigation ul li {
+	margin-bottom: 10px;
+}
 
-
+.pic {
+	display: block;
+	width: 300px;
+	text-align: center;
+}
 
 
 
