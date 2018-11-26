@@ -25,12 +25,14 @@ p, li {
 	margin: 10px;
 	float: right;
 	list-style-type: none;
+	background-color: green;
 }
 
 .head {
 	background-color: lightblue;
 	margin-bottom: 40px;
 	height: 120px;
+	background-color: white;
 }
 
 .logo {
@@ -38,12 +40,14 @@ p, li {
 	height: 100px;
 	padding: 10px;
 	float: left;
+	background-color: white;
 }
 
 .navigation	{
 	width: 200px;
 	padding: 15px 10px 15px;
 	float: left;
+	background-color: white;
 }
 .navigation ul {
 	margin: 20px 0;
@@ -52,7 +56,8 @@ p, li {
 	margin-bottom: 10px;
 }
 .main_cont {
-
+	width: 100px;
+	background-color: white;
 }
 
 .adv {
