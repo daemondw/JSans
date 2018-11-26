@@ -12,16 +12,38 @@
 	margin: 1%;
 }
 
+.left {
+	width: 30%;
+	background: blue;
+	min-height: 200px;
+	float: left;
+	margin: 1%;
+}
+
+.right {
+	width: 30%;
+	background: red;
+	min-height: 200px;
+	float: left;
+	margin: 1%;
+}
+
+.wrap::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 @media screen and (max-width: 600px) {
 	.container {
-		background: red;
+		background: orange;
 		width: 90%;
 	}
 }
 
 @media screen and (max-width: 350px) {
 	.container {
-		background: blue;
+		background: cyan;
 		width: 98%;
 	}
 }
