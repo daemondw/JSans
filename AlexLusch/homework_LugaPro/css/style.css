@@ -6,6 +6,11 @@ html, body {
 	font-size: 12px;
 	background: #e1dde6;
 }
+.clearfix {
+	width: 100%;
+	clear: both;
+	border: 2px solid red;
+}
 
 p, li {
 	line-height: 150%;
@@ -16,7 +21,7 @@ p, li {
 	margin: 25px auto;
 	border: 2px solid grey;
 	border-radius: 5px;
-	background-color: white;
+	background-color: #fd41cc;
 }
 
 .contacts {
@@ -39,14 +44,14 @@ p, li {
 	width: 300px;
 	height: 100px;
 	padding: 10px;
-	float: left;
+	/*float: left;*/
 	background-color: #989a96;
 }
 
 .navigation	{
 	width: 200px;
 	padding: 15px 10px 15px;
-	float: left;
+	/*float: left;*/
 	background-color: #d09482;
 }
 .navigation ul {
@@ -55,33 +60,38 @@ p, li {
 .navigation ul li {
 	margin-bottom: 10px;
 }
-.main_cont {
-	background-color: #ce5835;
+
+.content {
+	/*float: right;*/
+	background-color: #c754e8;
 }
 
 .adv {
 	font-size: 24px;
 	margin: 16px auto;
-	background-color: #ce5835;
+	background-color: #5ae4a4;
 }
 
 .pic {
 	display: block;
 	width: 300px;
 	text-align: center;
-	background-color: #ce5835;
+	background-color: #0098d2;
 }
 
 footer {
-	background-color: #ce5835;
+	background-color: #c433e8;
+/*	position: absolute;
+	bottom: 0;*/
+	
 }
 
 .foot {
-	background-color: #ce5835;
+	background-color: #4b59fd;
 }
 
 .foot_second {
-	background-color: #ce5835;
+	background-color: #d49f00;
 }
 
 
