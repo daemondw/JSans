@@ -1,0 +1,26 @@
+.main {
+  width: 1000px;
+  height: 1000px;
+  margin: 200px auto;
+  background: pink;
+}
+
+.test {
+  width: 50%;
+  height: 20%;
+  background: cyan;
+  margin: 10%;
+  padding: 2%;
+}
+
+html, body {
+  font-size: 20px;
+}
+
+.three {
+  font-size: 1.5rem;
+}
+
+.two {
+  font-size: 2rem;
+}
