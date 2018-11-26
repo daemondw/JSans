@@ -32,7 +32,7 @@ p, li {
 	background-color: lightblue;
 	margin-bottom: 40px;
 	height: 120px;
-	background-color: white;
+	background-color: #dec475;
 }
 
 .logo {
@@ -40,14 +40,14 @@ p, li {
 	height: 100px;
 	padding: 10px;
 	float: left;
-	background-color: white;
+	background-color: #989a96;
 }
 
 .navigation	{
 	width: 200px;
 	padding: 15px 10px 15px;
 	float: left;
-	background-color: white;
+	background-color: #d09482;
 }
 .navigation ul {
 	margin: 20px 0;
@@ -56,19 +56,32 @@ p, li {
 	margin-bottom: 10px;
 }
 .main_cont {
-	width: 100px;
-	background-color: white;
+	background-color: #ce5835;
 }
 
 .adv {
 	font-size: 24px;
 	margin: 16px auto;
+	background-color: #ce5835;
 }
 
 .pic {
 	display: block;
 	width: 300px;
 	text-align: center;
+	background-color: #ce5835;
+}
+
+footer {
+	background-color: #ce5835;
+}
+
+.foot {
+	background-color: #ce5835;
+}
+
+.foot_second {
+	background-color: #ce5835;
 }
 
 
