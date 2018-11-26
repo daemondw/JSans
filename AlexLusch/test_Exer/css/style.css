@@ -2,7 +2,7 @@
 	width: 80%;
 	max-width: 1000px;
 	margin: 10px auto;
-	padding: 5px 30px;
+	padding: 5px;
 	background: pink;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .right {
-	width: 30%;
+	width: 66%;
 	background: red;
 	min-height: 200px;
 	float: left;
@@ -39,6 +39,14 @@
 		background: orange;
 		width: 90%;
 	}
+
+	.left {
+		width: 48%;
+	}
+
+	.right {
+		width: 48%;
+	}
 }
 
 @media screen and (max-width: 350px) {
@@ -46,22 +54,16 @@
 		background: cyan;
 		width: 98%;
 	}
-}
 
-.list0 {
+	.left {
+		width: 98%;
+		/*float: none;*/
+	}
 
-}
-
-.list1 {
-
-}
-
-.list2 {
-	
-}
-
-.list3 {
-	
+	.right {
+		width: 98%;
+		/*float: none;*/
+	}
 }
 
 
