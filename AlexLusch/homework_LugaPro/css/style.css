@@ -70,26 +70,28 @@ p, li {
 }
 
 .pic {
+	margin: 15px;
+	border-radius: 10px;
+	border: 5px solid #00698c;
 	display: block;
 	width: 300px;
-	text-align: center;
 	background-color: #0098d2;
 }
+.patent {
+	width: 600px;
+}
 
-footer {
-	background-color: #c433e8;
-/*	position: absolute;
-	bottom: 0;*/
-	
+.footer {
+	padding: 0 10px 0 20px;
+	height: 90px;
+	background-color: #ddd;
 }
 
 .foot {
-	background-color: #4b59fd;
-}
+	font-weight: bold;
+	margin: 0;
+	padding: 10px 0;
 
-.foot_second {
-	background-color: #d49f00;
 }
-
 
 
