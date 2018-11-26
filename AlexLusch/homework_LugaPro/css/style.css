@@ -4,11 +4,9 @@
 html, body {
 	font-family: Tahoma, Open Sans, Helvetica, sans-serif;
 	font-size: 12px;
-/*	text-align: left;*/
-}
-body {
 	background: #e1dde6;
 }
+
 p, li {
 	line-height: 150%;
 }
@@ -25,6 +23,7 @@ p, li {
 	height: 100px;
 	margin: 10px;
 	float: right;
+	list-style-type: none;
 }
 
 .head {
@@ -50,6 +49,14 @@ p, li {
 }
 .navigation ul li {
 	margin-bottom: 10px;
+}
+.main_cont {
+
+}
+
+.adv {
+	font-size: 24px;
+	margin: 16px auto;
 }
 
 .pic {
