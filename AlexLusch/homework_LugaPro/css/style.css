@@ -5,6 +5,7 @@ html, body {
 	font-family: Tahoma, Open Sans, Helvetica, sans-serif;
 	font-size: 12px;
 	background: #e1dde6;
+	/*line-height: 150%;*/
 }
 .clearfix {
 	width: 100%;
@@ -17,11 +18,11 @@ p, li {
 }
 .wrapper {
 	max-width: 1400px;
-	width: 65%;
+	width: 960px;
 	margin: 25px auto;
 	border: 2px solid grey;
 	border-radius: 5px;
-	background-color: #fd41cc;
+	background-color: #fff;
 }
 
 .contacts {
@@ -37,7 +38,6 @@ p, li {
 	background-color: lightblue;
 	margin-bottom: 40px;
 	height: 120px;
-	background-color: #dec475;
 }
 
 .logo {
@@ -51,7 +51,7 @@ p, li {
 .navigation	{
 	width: 200px;
 	padding: 15px 10px 15px;
-	/*float: left;*/
+	float: left;
 	background-color: #d09482;
 }
 .navigation ul {
@@ -62,7 +62,9 @@ p, li {
 }
 
 .content {
-	/*float: right;*/
+	width: 680px;
+	padding: 0 20px;
+	float: right;
 	background-color: #c754e8;
 }
 
