@@ -1,0 +1,33 @@
+.container {
+	width: 80%;
+	max-width: 1000px;
+	margin: 10px auto;
+	padding: 5px 30px;
+	background: pink;
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		background: red;
+	}
+}
+
+.list0 {
+
+}
+
+.list1 {
+
+}
+
+.list2 {
+	
+}
+
+.list3 {
+	
+}
+
+
+
+
