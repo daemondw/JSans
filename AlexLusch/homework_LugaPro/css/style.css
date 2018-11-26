@@ -5,12 +5,14 @@ html, body {
 	font-family: Tahoma, Open Sans, Helvetica, sans-serif;
 	font-size: 12px;
 	background: #e1dde6;
-	/*line-height: 150%;*/
 }
 .clearfix {
 	width: 100%;
 	clear: both;
-	border: 2px solid red;
+}
+
+p {
+	margin: 10px 0;
 }
 
 p, li {
@@ -23,6 +25,7 @@ p, li {
 	border: 2px solid grey;
 	border-radius: 5px;
 	background-color: #fff;
+	box-shadow: 0 0 10px;
 }
 
 .contacts {
@@ -47,14 +50,31 @@ p, li {
 
 .navigation	{
 	width: 200px;
-	padding: 15px 10px 15px;
+	padding: 15px 10px 15px 20px;
 	float: left;
 }
 .navigation ul {
-	margin: 20px 0;
+	margin: 0;
+	padding-left: 20px;
 }
+
 .navigation ul li {
-	margin-bottom: 10px;
+	margin: 10px 0;
+}
+
+.navigation ul li a {
+	color: #000;
+	font-size: 13px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.sidebar {
+	margin: 15px 0;
+}
+
+.sidebar_art {
+	margin: 40px 0 15px;
 }
 
 .content {
@@ -66,16 +86,20 @@ p, li {
 .adv {
 	font-size: 24px;
 	margin: 16px auto;
-	background-color: #5ae4a4;
 }
 
 .pic {
+	display: block;
 	margin: 15px;
 	border-radius: 10px;
 	border: 5px solid #00698c;
 	display: block;
 	width: 300px;
 	background-color: #0098d2;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
 }
 .patent {
 	width: 600px;
@@ -93,8 +117,8 @@ p, li {
 	padding: 10px 0;
 }
 
-.foot_2 {
-	float: right;
-	color: black;
+.alex {
+	float: right;	
 	text-decoration: none;
+	color: #000;
 }
