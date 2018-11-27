@@ -57,12 +57,12 @@
 
 	.left {
 		width: 98%;
-		/*float: none;*/
+		float: none;
 	}
 
 	.right {
 		width: 98%;
-		/*float: none;*/
+		float: none;
 	}
 }
 
