@@ -48,11 +48,18 @@ h3 span {
     clear: both;
 }
 
+/*------------------footer*/
+
 .site-footer {
     background: #fff;
     padding: 60px 0 44px 0;
     font-size: 14px;
     color: #34404c;
+}
+
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4 {
+    font-size: 16px;
+    color: #ff7e3a;
 }
 
 .block-370 {
@@ -78,12 +85,47 @@ h3 span {
 }
 
 ul.footer-nav a {
-    color: #34404c;
+    color: #28313b;
     text-decoration: none;
+}
+
+ul.footer-nav a:hover {
+    color: #ff7e3a;
+}
+
+ul.footer-nav .active {
+    color: #ff7e3a;
 }
 
 ul.footer-nav li {
     margin-bottom: 15px;
+}
+
+.payment-img {
+    width: 25px;
+    height: 17px;
+    background: url('../img/payment_bg.png');
+    display: inline-block;
+}
+
+.amex {
+    background-position: -1px -1px;
+}
+
+.second {
+    background-position: -36px -1px;
+}
+
+.visa {
+    background-position: -72px -1px;
+}
+
+.mastercard {
+    background-position: -108px -1px;
+}
+
+.gray {
+    background-position: -144px -1px;
 }
 
 
