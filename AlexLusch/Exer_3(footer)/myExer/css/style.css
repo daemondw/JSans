@@ -51,8 +51,40 @@ h3 span {
 .site-footer {
     background: #fff;
     padding: 60px 0 44px 0;
+    font-size: 14px;
+    color: #34404c;
 }
 
+.block-370 {
+    width: 30.83333%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.block-170 {
+    width: 14.166666%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.red {
+    background: red;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+ul.footer-nav a {
+    color: #34404c;
+    text-decoration: none;
+}
+
+ul.footer-nav li {
+    margin-bottom: 15px;
+}
 
 
 
