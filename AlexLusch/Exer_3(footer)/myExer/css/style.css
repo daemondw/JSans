@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    background: #f6f8f9;
+    font-family: Aril, Tahoma, sans-serif;
+    color: #44525e;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+
+}
+
+h3 {
+    margin: 20px 0;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 span {
+    color: #ff7013;
+}
+
+.section-description {
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin:10px auto;
+}
+
