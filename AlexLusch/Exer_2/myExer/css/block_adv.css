@@ -14,10 +14,6 @@ p {
 	margin: 0;
 }
 
-h1 {
-
-}
-
 h3 {
 	margin: 20px 0;
 	font-size: 36px;
@@ -29,7 +25,6 @@ h3 span {
 	color: #ff7013;
 }
 .section-description {
-	font-size: 16px;
 	text-align: center;
 }
 
@@ -43,10 +38,13 @@ h3 span {
 	min-height: 100px;
 	background: #fff;
 	border: 1px solid #edf0f1;
+	margin: 0 -2%;
 }
 
 .block-adv .sale {
 	width: 25%;
+	float: left;
+	margin: 0 2%;
 }
 
 .sale_img {
@@ -73,10 +71,46 @@ h3 span {
 
 .block-adv .slogan {
 	width: 40%;
+	float: left;
+	margin: 0 2%;
+	text-align: left;
 }
 
 .block-adv .slogan h3 {
-	color: #727a80;
+	color: #34405f;
+	font-size: 22px;
+	text-align: left;
+	margin: 0;
+	padding-top: 18px;
 }
+
+.block-adv .slogan p {
+	color: #5b6975;
+	font-size: 12px;
+	margin: 5px;
+}
+
+.block-adv .adv-price {
+	width: 23%;
+	min-height: 100px;
+	float: left;
+	margin: 0 2%;
+	color: #ff7013;
+	font-size: 24px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.block-adv .adv-price p::before {
+	width: 22px;
+	height: 22px;
+	content: "";
+	margin-right: 5px;
+	display: inline-block;
+	background-image: url('../img/card_plus.png');
+}
+
+
+
 
 
