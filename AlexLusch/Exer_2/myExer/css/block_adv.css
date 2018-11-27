@@ -71,8 +71,12 @@ h3 span {
 	color: #fff;
 }
 
+.block-adv .slogan {
+	width: 40%;
+}
 
-
-
+.block-adv .slogan h3 {
+	color: #727a80;
+}
 
 
