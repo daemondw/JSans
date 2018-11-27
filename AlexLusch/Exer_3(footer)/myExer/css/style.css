@@ -38,3 +38,24 @@ h3 span {
     margin:10px auto;
 }
 
+.row {
+    margin: 0 -1.25%;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.site-footer {
+    background: #fff;
+    padding: 60px 0 44px 0;
+}
+
+
+
+
+
+
+
