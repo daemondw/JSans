@@ -177,3 +177,40 @@ ul.footer-nav li {
 
 }
 
+.ico-line img {
+  margin: 0 12px;
+}
+
+.cart {
+  /* display: inline-block; */
+  position: relative;
+}
+
+/* .cart-count::after {
+  content: "6";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: #43525d;
+  position: absolute;
+  top: -16px;
+  left: 16px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+} */
+
+.ico-line a div.cart-count {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: #43525d;
+  position: absolute;
+  top: -18px;
+  left: 16px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+}
