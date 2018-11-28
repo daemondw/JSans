@@ -142,12 +142,20 @@ ul.footer-nav li {
 
 .main-logo {
     margin-top: 30px;
-
 }
 
+.main-logo ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
-
-
+.main-nav li {
+    background: red;
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
 
 
 
