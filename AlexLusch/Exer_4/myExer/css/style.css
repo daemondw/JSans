@@ -69,6 +69,13 @@ h3 span {
     margin: 0 1.25%;
 }
 
+.block-770 {
+  width: 64.1666%;
+  min-height: 100px;
+  float: left;
+  margin: 0 1.25%;
+}
+
 .block-170 {
     width: 14.166666%;
     min-height: 100px;
@@ -135,6 +142,11 @@ ul.footer-nav li {
     background: #fff;
 }
 
+.site-header a {
+    color: #43525d;
+    text-decoration: none;
+}
+
 .header-line {
     min-height: 60px;
     border-bottom: 1px solid #f5f5f7;
@@ -151,13 +163,17 @@ ul.footer-nav li {
 }
 
 .main-nav li {
-    background: red;
     float: left;
     list-style: none;
-    margin: 10px;
+    margin: 22px 15px;
 }
 
+.main-nav .active a {
+  color: #ff7e3a;
+}
 
+.ico-line {
+  margin-top: 38px;
 
-
+}
 
